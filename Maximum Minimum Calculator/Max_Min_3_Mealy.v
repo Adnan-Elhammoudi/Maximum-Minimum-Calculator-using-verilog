@@ -1,3 +1,8 @@
+//This Verilog file include RTL design of the calculator
+//system implemented as a Mealy HLSM. control unit (CU) and data path unit (DPU) implemented using a single always procedural block.
+//The name of your module should be Max_Min_3_Mealy.
+
+
 module min_max_finder_mealy(reset,clk,start,ack,DONE_S,xin,yin,zin,max,min,Cd, C3 ,C2,C1,Im);
 input  	clk, reset, start, ack;
 input  	[2:0] xin,yin,zin;
