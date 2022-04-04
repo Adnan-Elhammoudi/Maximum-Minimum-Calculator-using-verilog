@@ -1,3 +1,11 @@
+//This Verilog file include RTL design of the calculator
+//system implemented as a Moore HLSM. control unit (CU) and data path unit (DPU) 
+//implemented using a single always procedural block.The name of module should be
+//Max_Min_3_Moore.
+
+
+
+
 module min_max_finder_moore (reset, clk, start, ack, xin, yin, zin, max, min, Done, Qi, Qc1, Qc2, Qc3, Qc4, Qc5,Qc6, Qd);
 
 input clk, reset, start, ack;
