@@ -1,3 +1,7 @@
+//This Verilog file serve as a testbench that instantiates the two
+//versions of the calculator system and generates appropriate stimulus to test them.
+
+
 
 `timescale 1 ns / 100 ps
 module tb_min_max_finder;
