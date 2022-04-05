@@ -1,6 +1,6 @@
 # Maximum-Minimum-Calculator-using-verilog
 
-this assignment requested to design a HLSM for a digital system that receives three 3-
+HLSM design for a digital system that receives three 3-
 bit unsigned numbers (i.e. Xin, Yin, and Zin) and produces two 3-bit outputs that represent the
 maximum and the minimum of the three inputs.
 
